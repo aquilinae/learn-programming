@@ -1,0 +1,54 @@
+/* Базовые стили, изменять не нужно */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 520px;
+    min-height: 270px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #3a78a1;
+    background-image: url("grid.png");
+    background-repeat: repeat;
+    background-position: -80px -80px;
+}
+
+input[type="text"] {
+    height: 38px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+.block {
+    background: rgba(0, 255, 255, 0.2);
+}
+
+/* Пользовательские стили */
+.block1 {
+    width: 520px;
+    height: 118px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.block2 {
+    width: 480px;
+    height: 78px;
+    margin: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
