@@ -17,8 +17,15 @@ console.log(abc.length);
 */
 
 // while loop
-var octothorpe = '#'
+var octothorpe = '#';
 while (octothorpe.length <= 7) {
   console.log(octothorpe);
   octothorpe += '#';
 }
+
+// do loop
+var octothorpe = '#';
+do {
+  console.log(octothorpe);
+  octothorpe += '#';
+} while (octothorpe.length <= 7);
