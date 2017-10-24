@@ -29,3 +29,7 @@ do {
   console.log(octothorpe);
   octothorpe += '#';
 } while (octothorpe.length <= 7);
+
+// for loop
+for (octothorpe = '#'; octothorpe.length <= 7; octothorpe += '#')
+  console.log(octothorpe);
