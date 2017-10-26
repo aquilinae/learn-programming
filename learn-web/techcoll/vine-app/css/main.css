@@ -3,3 +3,132 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif; }
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  }
+/*
+.left-column {
+  height: 100%;
+  width: 50%;
+}
+*/
+.wrapper {
+  height: 100%;
+  width: 50%;
+  float: right;
+  position: relative;
+
+  background-color: #FFFFFF;
+}
+
+#intro {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#intro h1 {
+  font-size: 5em;
+  color: #3D0000;
+}
+
+#intro h2 {
+  font-size: 2em;
+  font-style: italic;
+  color: #8C8C8C;
+}
+
+
+#button-catalog {
+  margin-top: 10%;
+  padding: 2.5% 5%;
+  border: none;
+  font-size: 2em;
+  background-color: #7B0400;
+  color: #FFFFFF;
+
+}
+
+/* Это было сделано для обращения в скрипте через JS classList,
+но не использовалось - НУЖНО ПОЧИТАТЬ */
+#intro.visibility {
+  display: none;
+}
+
+#content {
+  display: none;
+
+  background-color: #FFFFFF;
+}
+
+/* Это было сделано для обращения в скрипте через JS classList,
+но не использовалось - НУЖНО ПОЧИТАТЬ */
+#content.visibility {
+  display: block;
+}
+
+.item {
+  min-width: 200px;
+  min-height: 300px;
+  padding: 15px;
+  margin: 25px;
+  display: block;
+  border: 1px solid #BD2814;
+  background-color: #FFFFFF;
+}
+
+.item-img {
+  border: 1px solid red;
+  background-color: #DDDDDD;
+  height: 40%;
+  width: 100%;
+}
+
+
+.item-name-and-price {
+  margin-top: 10px;
+}
+
+
+.item-name {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  color: #970000;
+  font-size: 1.25em;
+}
+
+.item-price {
+  display: inline-block;
+  float: right;
+  width: 20%;
+  font-size: 2em;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.item-year {
+  clear: both;
+  margin-top: 20px;
+}
+
+.item-buy {
+  margin-top: 5%;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 1.25em;
+  background-color: #C54D35;
+}
