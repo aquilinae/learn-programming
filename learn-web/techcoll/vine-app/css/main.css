@@ -69,7 +69,7 @@ body {
 #content {
   display: none;
 
-  background-color: #ABABAB;
+  background-color: #FFFFFF;
 }
 
 /* Это было сделано для обращения в скрипте через JS classList,
@@ -79,21 +79,20 @@ body {
 }
 
 .item {
-  min-width: 100px;
-  min-height: 300px;
   min-width: 200px;
-  min-height: 400px;
-  padding: 10px;
-  margin: 10px;
+  min-height: 300px;
+  padding: 15px;
+  margin: 25px;
   display: block;
-
-  background-color: #CCCCCC;
+  border: 1px solid #BD2814;
+  background-color: #FFFFFF;
 }
 
 .item-img {
   border: 1px solid red;
-
-  background-color: #999999;
+  background-color: #DDDDDD;
+  height: 40%;
+  width: 100%;
 }
 
 
@@ -105,19 +104,16 @@ body {
 .item-name {
   display: inline-block;
   float: left;
-
   width: 70%;
-
-  background-color: #88FF88;
+  color: #970000;
+  font-size: 1.25em;
 }
 
 .item-price {
   display: inline-block;
   float: right;
-
   width: 20%;
-
-  background-color: #77CC77;
+  font-size: 2em;
 }
 
 .clearboth {
@@ -127,12 +123,12 @@ body {
 .item-year {
   clear: both;
   margin-top: 20px;
-
-  background-color: #CCAA66;
 }
 
 .item-buy {
   margin-top: 5%;
-
-  background-color: #55BB55;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 1.25em;
+  background-color: #C54D35;
 }
