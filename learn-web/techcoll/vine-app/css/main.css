@@ -89,17 +89,16 @@ body {
 }
 
 .item-img {
+  display: block;
   border: 1px solid red;
   background-color: #DDDDDD;
   height: 40%;
   width: 100%;
 }
 
-
 .item-name-and-price {
   margin-top: 10px;
 }
-
 
 .item-name {
   display: inline-block;
