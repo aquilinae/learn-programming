@@ -9,7 +9,7 @@ function eventHandler() {
     var _data = getData();
     console.log(_data);
 
-    
+
 
     // запрашиваем данные
     function getData() {
@@ -23,5 +23,12 @@ function eventHandler() {
     button.addEventListener('click', function() {
       document.getElementById('intro').style.display = 'none';
       document.getElementById('content').style.display = 'inline-block';
-    })
+    });
+
+
+    function getItem(name, price, year) {
+      return '
+      ';
+    }
+
 }
