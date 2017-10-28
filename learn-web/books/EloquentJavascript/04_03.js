@@ -19,6 +19,7 @@
 этого переделайте функцию countBs.
 */
 
+// countBs()
 function countBs(string) {
   var numOfBs = 0
   for (var i = 0; i <= string.length - 1; i++) {
@@ -38,3 +39,25 @@ var string = 'Abra Cadabra';
 console.log(countBs(string));
 var string = 'aBra cadaBra';
 console.log(countBs(string));
+
+// countChar()
+function countChar(string, char) {
+  var numOfChars = 0
+  for (var i = 0; i <= string.length - 1; i++) {
+    if (string.charAt(i) == char) numOfChars += 1;
+  }
+  return numOfChars;
+}
+
+// Test area
+var string = "Abra Cadabra Alakazam";
+var char = 'B';
+console.log(countChar(string, char));
+var char = 'A';
+console.log(countChar(string, char));
+var char = 'a';
+console.log(countChar(string, char));
+var char = 'z';
+console.log(countChar(string, char));
+var char = ' ';
+console.log(countChar(string, char));
