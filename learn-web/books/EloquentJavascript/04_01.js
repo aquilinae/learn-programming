@@ -1,35 +1,22 @@
 /*
-Треугольник в цикле
-Напишите цикл, который за 7 вызовов console.log
-выводит такой треугольник:
-#
-##
-###
-####
-#####
-######
-#######
-Будет полезно знать, что длину строки можно узнать,
-приписав к переменной .length.
-var abc = "abc";
-console.log(abc.length);
-// → 3
+Минимум
+В предыдущей главе была упомянута функция Math.min,
+возвращающая самый маленький из аргументов. Теперь
+мы можем написать такую функцию сами. Напишите
+функцию min, принимающую два аргумента, и
+возвращающую минимальный из них.
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
 */
 
-// while loop
-var octothorpe = '#';
-while (octothorpe.length <= 7) {
-  console.log(octothorpe);
-  octothorpe += '#';
+function min(a, b) {
+  if (a > b) return b;
+  else if (a < b) return a;
+  else return "numbers are equal";
 }
 
-// do loop
-var octothorpe = '#';
-do {
-  console.log(octothorpe);
-  octothorpe += '#';
-} while (octothorpe.length <= 7);
-
-// for loop
-for (octothorpe = '#'; octothorpe.length <= 7; octothorpe += '#')
-  console.log(octothorpe);
+console.log(min(0, 10));
+console.log(min(0, -10));
+console.log(min(0,0));
