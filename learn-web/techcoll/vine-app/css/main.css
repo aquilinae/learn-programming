@@ -6,6 +6,7 @@
 
 html {
   height: 100%;
+  background-color: #FFFFFF;
 }
 
 body {
@@ -22,16 +23,14 @@ body {
 }
 */
 .wrapper {
+  position: relative;
+  float: right;
   height: 100%;
   width: 50%;
-  float: right;
-  position: relative;
-
   background-color: #FFFFFF;
 }
 
 #intro {
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -68,7 +67,6 @@ body {
 
 #content {
   display: none;
-
   background-color: #FFFFFF;
 }
 
