@@ -60,7 +60,6 @@ body {
   font-size: 2em;
   background-color: #7B0400;
   color: #FFFFFF;
-
 }
 
 /* Это было сделано для обращения в скрипте через JS classList,
@@ -71,8 +70,11 @@ body {
 
 #content {
   position: absolute;
+  width: 100%;
+  height: 100%;
   display: none;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: green;
 }
 
 /* Это было сделано для обращения в скрипте через JS classList,
@@ -86,24 +88,26 @@ body {
   width: 100%;
   height: 90%;
   overflow: auto;
+  background-color: red;
 }
 
 .item {
   position: relative;
-  min-width: 200px;
-  min-height: 300px;
+  display: inline-block;
+  width: calc(100%/3);
+  height: calc(100%/3);
   padding: 15px;
   margin: 25px;
-  display: block;
   border: 1px solid #BD2814;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: blue;
 }
 
 .item-img {
   display: block;
   border: 1px solid red;
   background-color: #DDDDDD;
-  height: 40%;
+  height: 50%;
   width: 100%;
 }
 
