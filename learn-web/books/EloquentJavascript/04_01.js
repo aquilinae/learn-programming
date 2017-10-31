@@ -39,3 +39,15 @@ function sum(numbers) {
 
 console.log(sum(range(1, 10)));
 // → 55
+
+function range(start, end, turn) {
+  if (typeof(turn) == 'undefinded') turn = 1;
+  var numbers = [];
+  for (var i = start; i <= end; i += turn) {
+    numbers.push(i);
+  }
+  return numbers;
+}
+
+console.log(range(5, 2, -1));
+// → [5, 4, 3, 2]
