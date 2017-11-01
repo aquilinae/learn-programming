@@ -30,7 +30,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 50%;
-  right: 0; /* нужно подробнее почитать про это свойство ы*/
+  right: 0; /* нужно подробнее почитать про это свойство */
   background-color: #FFFFFF;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .item-img {
-  display: block;
+  display: inline-block;
   border: 1px solid red;
   background-color: #DDDDDD;
   height: 50%;

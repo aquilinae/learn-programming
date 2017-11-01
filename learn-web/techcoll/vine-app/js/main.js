@@ -9,6 +9,12 @@ function eventHandler() {
     var _data = getData();
     console.log(_data);
 
+    var buffer = "";
+    for (var i=0; i < _data.length; i++) {
+        buffer += getItem(_data[i].name, _data[i].price, _data[i].year);
+    }
+    console.log(buffer);
+
     // запрашиваем данные
     function getData() {
         // генерим json здесь:
@@ -22,4 +28,17 @@ function eventHandler() {
       document.getElementById('intro').style.display = 'none';
       document.getElementById('content').style.display = 'inline-block';
     });
+
+    function getItem(name, price, year) {
+        return `<div class="item">
+                  <div class="item-img"></div>
+                  <div class="item-name-and-price">
+                    <div class="item-name">${name}/div>
+                    <div class="item-price">${price}</div>
+                    <div class="clearboth"></div>
+                  </div>
+                  <div class="item-year">Year: ${year}</div>
+                  <button class="item-buy">BUY</button>
+                </div>`;
+    }
 }
