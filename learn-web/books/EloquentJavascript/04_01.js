@@ -43,8 +43,13 @@ console.log(sum(range(1, 10)));
 function range(start, end, turn) {
   if (typeof(turn) == 'undefinded') turn = 1;
   var numbers = [];
-  for (var i = start; i <= end; i += turn) {
-    numbers.push(i);
+  if (start < end) {
+    for (var i = start; i <= end; i += turn)
+      numbers.push(i);
+  }
+  if (end < start) {
+    for (var i = start; i >= end; i += turn)
+      numbers.push(i);
   }
   return numbers;
 }
