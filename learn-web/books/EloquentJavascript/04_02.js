@@ -29,3 +29,26 @@ function reverseArray(array) {
 
 console.log(reverseArray(["A", "B", "C"]));
 // → ["C", "B", "A"];
+
+function reverseArrayInPlace(array) {
+  var buffer = 'undefinded';
+  if (array.length % 2 == 0) {
+    for (var i = 0; i < Math.floor(array.length / 2) + 1; i++) {
+      buffer = array[i];
+      array[i] = array[array.length-1 - i];
+      array[array.length-1 - i] = buffer;
+    }
+  } else {
+    for (var i = 0; i < Math.floor(array.length / 2); i++) {
+      buffer = array[i];
+      array[i] = array[array.length-1 - i];
+      array[array.length-1 - i] = buffer;
+    }
+  }
+  return array;
+}
+
+var arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
+// → [5, 4, 3, 2, 1]
