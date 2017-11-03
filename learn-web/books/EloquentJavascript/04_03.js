@@ -90,5 +90,12 @@ function nth(list, number) {
   return element;
 }
 
+// Рекурсивный вариант nth
+function nth(list, number) {
+  if (!list) return undefined;
+  else if (number == 0) return list.value;
+  else return nth(list.rest, number - 1);
+}
+
 console.log(nth(arrayToList([10, 20, 30]), 1));
 // → 20
