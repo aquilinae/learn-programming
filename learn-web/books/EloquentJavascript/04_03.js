@@ -80,3 +80,15 @@ function prepend(value, rest) {
 
 console.log(prepend(10, prepend(20, null)));
 // → {value: 10, rest: {value: 20, rest: null}}
+
+function nth(list, number) {
+  var element = 0;
+  for(var i = 0; i <= number; i++) {
+    element = list.value;
+    list = list.rest;
+  }
+  return element;
+}
+
+console.log(nth(arrayToList([10, 20, 30]), 1));
+// → 20
