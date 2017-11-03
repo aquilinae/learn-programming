@@ -82,6 +82,7 @@ console.log(prepend(10, prepend(20, null)));
 // → {value: 10, rest: {value: 20, rest: null}}
 
 function nth(list, number) {
+  if (!list) return undefined;
   var element = 0;
   for(var i = 0; i <= number; i++) {
     element = list.value;
