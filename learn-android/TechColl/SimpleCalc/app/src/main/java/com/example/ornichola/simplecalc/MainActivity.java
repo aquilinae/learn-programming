@@ -78,8 +78,13 @@ public class MainActivity extends AppCompatActivity {
                 if (value01.getText().length() != 0 && value02.getText().length() != 0) {
                     double v1 = Double.parseDouble(value01.getText().toString());
                     double v2 = Double.parseDouble(value02.getText().toString());
-                    double res = v1 / v2;
-                    result.setText(String.valueOf(res));
+                    if (value02.getText().toString().equals("0")) {
+                        Toast.makeText(v.getContext(),"На ноль делить нельзя!",Toast.LENGTH_SHORT).show();
+                    }
+                    else {
+                        double res = v1 / v2;
+                        result.setText(String.valueOf(res));
+                    }
                 }
                 else {
                     Toast.makeText(v.getContext(),"Введите оба числа!",Toast.LENGTH_SHORT).show();
