@@ -18,5 +18,7 @@ public class SecondActivity extends AppCompatActivity {
 
         result = (TextView)findViewById(R.id.result);
         result.setText(String.valueOf(res));
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
