@@ -40,34 +40,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
+        android:width="100dp"
+        android:height="100dp"
         android:text="+"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonMultiply"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/value02"
-        app:layout_constraintVertical_bias="0.286" />
+        app:layout_constraintVertical_bias="0.522" />
 
     <Button
         android:id="@+id/buttonSubtract"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginTop="8dp"
+        android:width="100dp"
+        android:height="100dp"
         android:text="-"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonDivide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/value02"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.523" />
 
     <Button
         android:id="@+id/buttonMultiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginStart="32dp"
+        android:width="100dp"
+        android:height="100dp"
         android:text="*"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -75,9 +84,12 @@
         android:id="@+id/buttonDivide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="32dp"
+        android:width="100dp"
+        android:height="100dp"
         android:text="/"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
