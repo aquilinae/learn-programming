@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 if (value01.getText().length() != 0 && value02.getText().length() != 0) {
                     double v1 = Double.parseDouble(value01.getText().toString());
                     double v2 = Double.parseDouble(value02.getText().toString());
-                    if (value02.getText().toString().equals("0")) {
+                    if (v2 == 0) {
                         Toast.makeText(v.getContext(),"На ноль делить нельзя!",Toast.LENGTH_SHORT).show();
                     }
                     else {
