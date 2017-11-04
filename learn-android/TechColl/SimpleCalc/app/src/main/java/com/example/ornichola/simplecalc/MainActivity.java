@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     double v2 = Double.parseDouble(value02.getText().toString());
                     double res = v1 + v2;
 
-                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                     intent.putExtra("RESULT", res);
                     startActivity(intent);
                 }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     double v2 = Double.parseDouble(value02.getText().toString());
                     double res = v1 - v2;
 
-                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                     intent.putExtra("RESULT", res);
                     startActivity(intent);
                 }
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     double v2 = Double.parseDouble(value02.getText().toString());
                     double res = v1 * v2;
 
-                    Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                     intent.putExtra("RESULT", res);
                     startActivity(intent);
                 }
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                     else {
                         double res = v1 / v2;
 
-                        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                        Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                         intent.putExtra("RESULT", res);
                         startActivity(intent);
                     }

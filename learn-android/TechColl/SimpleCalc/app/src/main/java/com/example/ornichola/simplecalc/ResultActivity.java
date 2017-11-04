@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class SecondActivity extends AppCompatActivity {
+public class ResultActivity extends AppCompatActivity {
 
     TextView result;
     double res;
@@ -12,7 +12,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_result);
 
         res = getIntent().getExtras().getDouble("RESULT");
 
