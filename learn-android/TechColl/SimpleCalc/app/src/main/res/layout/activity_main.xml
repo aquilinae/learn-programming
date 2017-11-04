@@ -6,13 +6,80 @@
     android:layout_height="match_parent"
     tools:context="com.example.ornichola.simplecalc.MainActivity">
 
+    <EditText
+        android:id="@+id/value01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Введите число"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/value02"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Введите число"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value01" />
+
     <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Результат"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/button_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="*"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/button_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="/"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="326dp" />
 </android.support.constraint.ConstraintLayout>
