@@ -15,6 +15,8 @@ function eventHandler() {
     }
     console.log(buffer);
 
+    document.getElementsByClassName("wrapper-items")[0].innerHTML = buffer;
+
     // запрашиваем данные
     function getData() {
         // генерим json здесь:
@@ -33,8 +35,12 @@ function eventHandler() {
         return `<div class="item">
                   <div class="item-img"></div>
                   <div class="item-name-and-price">
-                    <div class="item-name">${name}/div>
-                    <div class="item-price">${price}</div>
+                    <div class="item-name">
+                      ${name}
+                    </div>
+                    <div class="item-price">
+                      ${price}
+                    </div>
                     <div class="clearboth"></div>
                   </div>
                   <div class="item-year">Year: ${year}</div>
