@@ -9,12 +9,14 @@ function eventHandler() {
     var _data = getData();
     console.log(_data);
 
+    // собираем данные для тиражирования айтемов
     var buffer = "";
     for (var i=0; i < _data.length; i++) {
-        buffer += getItem(_data[i].name, _data[i].price, _data[i].year);
+        buffer += getItem(_data[i].name, _data[i].price, _data[i].year, i);
     }
     console.log(buffer);
 
+    // тиражируем айтемы
     document.getElementsByClassName("wrapper-items")[0].innerHTML = buffer;
 
     // запрашиваем данные
@@ -31,7 +33,22 @@ function eventHandler() {
       document.getElementById('content').style.display = 'inline-block';
     });
 
-    function getItem(name, price, year) {
+    var count = 0;
+    var total = 0;
+    var elements = document.getElementsByClassName("item-buy");
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var button = element.children[0];
+      button.addEventListener('click', function() {
+        var id = parseInt(this.getAttribute("id"));
+        var price = parseFloat(_data[id].price.replace(/\$(.*)/,'$1'));
+        document.getElementById("bottles-count").innerHTML = ++count;
+        document.getElementById("total").innerHTML = (total += price).toFixed(2);
+      });
+    }
+
+    // собираем айтем
+    function getItem(name, price, year, index) {
         return `<div class="item">
                   <div class="item-img"></div>
                   <div class="item-name-and-price">
@@ -44,7 +61,9 @@ function eventHandler() {
                     <div class="clearboth"></div>
                   </div>
                   <div class="item-year">Year: ${year}</div>
-                  <button class="item-buy">BUY</button>
+                  <div class="item-buy">
+                    <button id="${index}">BUY</button>
+                  </div>
                 </div>`;
     }
 }
