@@ -11,21 +11,20 @@ html {
 }
 
 body {
-  position: absolute;
   height: 100%;
   width: 100%;
-  max-width: 1600px;
   overflow: hidden;
   background: url(../img/background.jpg);
-  background-size: contain;
+  background-size: auto 100%;
   background-position: left center;
+  background-repeat: no-repeat;
   }
 
 .wrapper-right-column {
   position: absolute;
   display: inline-block;
   height: 100%;
-  width: 50%;
+  width: 60%;
   right: 0; /* нужно подробнее почитать про это свойство */
   background-color: #FFFFFF;
 }
@@ -68,8 +67,9 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   display: none;
-  background-color: #FFFFFF;
 }
 
 /* Это было сделано для обращения в скрипте через JS classList,
@@ -81,47 +81,56 @@ body {
 .wrapper-items {
   position: absolute;
   width: 100%;
-  height: 90%;
+  height: 95%;
+  margin: 0;
+  padding: 25px;
   overflow: auto;
-  background-color: red;
 }
 
 .item {
   position: relative;
   display: inline-block;
+  vertical-align: top;
   width: calc(100%/4);
-  height: calc(100%/4);
-  margin: 25px;
-  padding: 15px;
+  height: calc(100%/3);
+  padding: 20px;
+  margin: 20px;
   border: 1px solid #BD2814;
-  background-color: #FFFFFF;
 }
 
 .item-img {
   display: block;
   border: 1px solid red;
-  background-color: #DDDDDD;
-  height: 5em;
+  height:40%;
   width: 100%;
+  background-image: url(../img/item-placeholder.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .item-name-and-price {
-  margin-top: 10px;
+  display: block;
+  margin-top: 15px;
+  height: 30%;
+  width: 100%;
 }
 
 .item-name {
   display: inline-block;
   float: left;
-  width: 70%;
+  width: 60%;
   color: #970000;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  text-align: left;
 }
 
 .item-price {
   display: inline-block;
   float: right;
-  width: 20%;
-  font-size: 2em;
+  width: 30%;
+  font-size: 1.15em;
+  text-align: right;
 }
 
 .clearboth {
@@ -129,13 +138,15 @@ body {
 }
 
 .item-year {
-  clear: both;
-  margin-top: 20px;
+  display: block;
+  height: 10%;
+  width: 100%;
 }
 
 .item-buy {
-  margin-top: 5%;
+  display: block;
   width: 100%;
+  height: 15%;
   color: #FFFFFF;
   font-size: 1.25em;
   background-color: #C54D35;
