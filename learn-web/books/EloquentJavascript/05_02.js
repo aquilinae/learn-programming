@@ -64,7 +64,7 @@ var ANCESTRY_FILE = JSON.stringify([
   {"name": "Jacobus Bernardus van Brussel", "sex": "m", "born": 1736, "died": 1809, "father": "Jan van Brussel", "mother": "Elisabeth Haverbeke"}
 ]);
 
-var ancestry= JSON.parse(ANCESTRY_FILE);
+var ancestry = JSON.parse(ANCESTRY_FILE);
 
 function average(array) {
   function plus(a, b) { return a + b; }
