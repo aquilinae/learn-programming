@@ -83,12 +83,9 @@ function roundToOne(num) {
 }
 
 for (var i = 16; i <= 21; i++) {
-  console.log("starting interation with i = " + i);
-  var personsPerCentury = ancestry.filter(function(person) {
+  var agesPerCentury = ancestry.filter(function(person) {
     return (Math.ceil(person.died / 100) == i);
-  });
-
-  var agesPerCentury = personsPerCentury.map(function(person) {
+  }).map(function(person) {
     return (person.died - person.born);
   });
 
