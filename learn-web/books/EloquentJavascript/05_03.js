@@ -83,15 +83,13 @@ function roundToOne(num) {
 }
 
 for (var i = 16; i <= 21; i++) {
-  var agesPerCentury = ancestry.filter(function(person) {
+  var agesPerCentury = average(ancestry.filter(function(person) {
     return (Math.ceil(person.died / 100) == i);
   }).map(function(person) {
     return (person.died - person.born);
-  });
+  }));
 
-  var averageAgePerCentury = average(agesPerCentury);
-
-  centuriesWithAverageAges[i] = roundToOne(averageAgePerCentury);
+  centuriesWithAverageAges[i] = roundToOne(agesPerCentury);
 };
 
 console.log(centuriesWithAverageAges);
