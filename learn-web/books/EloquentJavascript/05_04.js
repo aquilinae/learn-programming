@@ -28,7 +28,33 @@ console.log(some([2, 3, 4], isNaN));
 */
 
 // Ваш код тут
+function every(array, condition) {
+  var flag = true
+  while (flag == true) {
+    array.forEach(function(element) {
+      if (condition(element) == false) {
+        flag = false;
+      }
+    return flag;
+    });
+  return flag;
+  }
+}
 
+function some(array, condition) {
+  var flag = true, returnFlag = false;
+  while (flag == true) {
+    array.forEach(function(element) {
+      if (condition(element) == true) {
+        flag = true;
+      } else {
+        returnFlag = true;
+      }
+    return returnFlag;
+    });
+  return returnFlag;
+  }
+}
 
 console.log(every([NaN, NaN, NaN], isNaN));
 // → true
