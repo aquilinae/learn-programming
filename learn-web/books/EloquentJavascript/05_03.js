@@ -97,3 +97,26 @@ console.log(centuriesWithAverageAges);
 // 19: 54.8
 // 20: 84.7
 // 21: 94
+
+/*
+function groupBy(array, condition) {
+  var groups = {};
+  array.forEach(function(element) {
+    var group = condition(element);
+    if (group in groups) groups[group].push(element);
+    else groups[group] = [element];
+  });
+  return groups;
+}
+
+var groupByCentury = groupBy(ancestry, function(person) {
+  return Math.ceil(person.died / 100);
+});
+
+for (var century in groupByCentury) {
+  var ages = groupByCentury[century].map(function(person) {
+    return (person.died - person.born);
+  });
+  console.log(century + ": " + roundToOne(average(ages)));
+}
+*/
