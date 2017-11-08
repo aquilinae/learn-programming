@@ -42,18 +42,11 @@ function every(array, condition) {
 }
 
 function some(array, condition) {
-  var flag = true, returnFlag = false;
-  while (flag == true) {
-    array.forEach(function(element) {
-      if (condition(element) == true) {
-        flag = true;
-      } else {
-        returnFlag = true;
-      }
-    return returnFlag;
-    });
-  return returnFlag;
+  for (var i = 0; i < array.length; i++) {
+    if (condition(array[i]))
+      return true;
   }
+  return false;
 }
 
 console.log(every([NaN, NaN, NaN], isNaN));
