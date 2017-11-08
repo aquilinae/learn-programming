@@ -84,5 +84,9 @@ var differences = filtered.map(function (person) {
     return person.born - byName[person.mother].born;
 });
 
-console.log(average(differences));
+function roundToOne(num) {
+    return +(Math.round(num + "e+1")  + "e-1");
+}
+
+console.log(roundToOne(average(differences)));
 // → 31.2
