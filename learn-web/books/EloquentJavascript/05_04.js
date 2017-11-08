@@ -29,16 +29,11 @@ console.log(some([2, 3, 4], isNaN));
 
 // Ваш код тут
 function every(array, condition) {
-  var flag = true
-  while (flag == true) {
-    array.forEach(function(element) {
-      if (condition(element) == false) {
-        flag = false;
-      }
-    return flag;
-    });
-  return flag;
+  for (var i = 0; i < array.length; i++) {
+    if (!condition(array[i]))
+      return false;
   }
+  return true;
 }
 
 function some(array, condition) {
@@ -47,14 +42,6 @@ function some(array, condition) {
       return true;
   }
   return false;
-}
-
-function every(array, condition) {
-  for (var i = 0; i < array.length; i++) {
-    if (!condition(array[i]))
-      return false;
-  }
-  return true;
 }
 
 console.log(every([NaN, NaN, NaN], isNaN));
