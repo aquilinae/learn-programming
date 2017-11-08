@@ -76,11 +76,9 @@ ancestry.forEach(function(person) {
   byName[person.name] = person;
 });
 
-var filtered = ancestry.filter(function (person) {
+var differences = ancestry.filter(function (person) {
   return byName[person.mother] != null;
-});
-
-var differences = filtered.map(function (person) {
+}).map(function (person) {
     return person.born - byName[person.mother].born;
 });
 
