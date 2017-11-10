@@ -1,106 +1,195 @@
-#[Практикум](http://htmlbook.ru/practical)
+### РќРёР·РєР°СЏ СЃР»РѕР¶РЅРѕСЃС‚СЊ
 
-##Решение задач по верстке веб-страниц.
+*   [TEX](/practical/tex)  
 
-###Низкая сложность  
-*[TEX](http://htmlbook.ru/practical/tex)
-*[Андроид в тени](http://htmlbook.ru/practical/android-v-teni)
-*[Асуанская плотина](http://htmlbook.ru/practical/asuanskaya-plotina)
-*[Верхний и нижний индекс](http://htmlbook.ru/practical/verkhniy-i-nizhniy-indeks)
-*[Вложенные списки](http://htmlbook.ru/practical/vlozhennye-spiski)
-*[Выворотка](http://htmlbook.ru/practical/vyvorotka)
-*[Заголовки](http://htmlbook.ru/practical/zagolovki)
-*[Из XHTML в HTML5](http://htmlbook.ru/practical/iz-xhtml-v-html5)
-*[Из XHTML в HTML5](http://htmlbook.ru/practical/iz-xhtml-v-html5-0)
-*[Использование спецсимволов](http://htmlbook.ru/practical/ispolzovanie-spetssimvolov)
-*[Исправление ошибок](http://htmlbook.ru/practical/ispravlenie-oshibok-3)
-*[Исправление ошибок](http://htmlbook.ru/practical/ispravlenie-oshibok-0)
-*[Исправление ошибок](http://htmlbook.ru/practical/ispravlenie-oshibok-2)
-*[Исправление ошибок](http://htmlbook.ru/practical/ispravlenie-oshibok-1)
-*[Исправление ошибок](http://htmlbook.ru/practical/ispravlenie-oshibok)
-*[Карты](http://htmlbook.ru/practical/karty)
-*[Многочлен степени n](http://htmlbook.ru/practical/mnogochlen-stepeni-n)
-*[Нумерованный и маркированный список](http://htmlbook.ru/practical/numerovannyy-i-markirovannyy-spisok)
-*[Объединение ячеек таблицы](http://htmlbook.ru/practical/obedinenie-yacheek-tablitsy)
-*[Оптимизация CSS](http://htmlbook.ru/practical/optimizaciya-css)
-*[Опять таблицы](http://htmlbook.ru/practical/opyat-tablicy)
-*[Отступы между блоков](http://htmlbook.ru/practical/otstupy-mezhdu-blokov)
-*[Поле для ввода чисел](http://htmlbook.ru/practical/pole-dlya-vvoda-chisel)
-*[Поле для поиска](http://htmlbook.ru/practical/pole-dlya-poiska)
-*[Работа с абзацами](http://htmlbook.ru/practical/rabota-s-abzatsami)
-*[Разноцветные ссылки](http://htmlbook.ru/practical/raznotsvetnye-ssylki)
-*[Рисованная рамка](http://htmlbook.ru/practical/risovannaya-ramka)
-*[Создание веб-страницы](http://htmlbook.ru/practical/sozdanie-veb-stranitsy)
-*[Создание ссылок](http://htmlbook.ru/practical/sozdanie-ssylok)
-*[Создание таблицы](http://htmlbook.ru/practical/sozdanie-tablitsy)
-*[Ссылка на страницу](http://htmlbook.ru/practical/ssylka-na-stranitsu)
-*[Стиль для печати](http://htmlbook.ru/practical/stil-dlya-pechati)
-*[Стихотворение](http://htmlbook.ru/practical/stihotvorenie)
-*[Флаг Японии](http://htmlbook.ru/practical/flag-yaponii)
-*[Цвет и фон в таблице](http://htmlbook.ru/practical/tsvet-i-fon-v-tablitse)
-*[Цвет фона и текста документа](http://htmlbook.ru/practical/tsvet-fona-i-teksta-dokumenta)
-*[Чередующиеся квадраты](http://htmlbook.ru/practical/chereduyushchiesya-kvadraty)
-*[Ширина таблицы](http://htmlbook.ru/practical/shirina-tablitsy)
+*   [РђРЅРґСЂРѕРёРґ РІ С‚РµРЅРё](/practical/android-v-teni)  
 
-###Средняя сложность
+*   [РђСЃСѓР°РЅСЃРєР°СЏ РїР»РѕС‚РёРЅР°](/practical/asuanskaya-plotina)  
 
-*[Батарейка](http://htmlbook.ru/practical/batareyka)
-*[Вырезанные уголки](http://htmlbook.ru/practical/vyrezannye-ugolki)
-*[Гламурная кнопка](http://htmlbook.ru/practical/glamurnaya-knopka)
-*[Градиентные кнопки в Safari](http://htmlbook.ru/practical/gradientnye-knopki-v-safari)
-*[Граница вокруг формы](http://htmlbook.ru/practical/granitsa-vokrug-formy)
-*[Двойная рамка](http://htmlbook.ru/practical/dvoinaya-ramka)
-*[Значки для листания фотографий](http://htmlbook.ru/practical/znachki-dlya-listaniya-fotografii)
-*[Индикатор прогресса](http://htmlbook.ru/practical/indikator-progressa)
-*[Квадратный корень](http://htmlbook.ru/practical/kvadratnyy-koren)
-*[Квадраты](http://htmlbook.ru/practical/kvadraty)
-*[Круговая диаграмма](http://htmlbook.ru/practical/krugovaya-diagramma)
-*[Наложение слоев](http://htmlbook.ru/practical/nalozhenie-sloev)
-*[Нумерация](http://htmlbook.ru/practical/numeratsiya)
-*[Нумерация страниц](http://htmlbook.ru/practical/numeratsiya-stranits)
-*[Обязательные поля формы](http://htmlbook.ru/practical/obyazatelnye-polya-formy)
-*[Отступ под изображением](http://htmlbook.ru/practical/otstup-pod-izobrazheniem)
-*[Перевод в XHTML](http://htmlbook.ru/practical/perevod-v-xhtml)
-*[Поле для игры в гомоку](http://htmlbook.ru/practical/pole-dlya-igry-v-gomoku)
-*[Последняя линия справа](http://htmlbook.ru/practical/poslednyaya-liniya-sprava)
-*[Прогноз погоды](http://htmlbook.ru/practical/prognoz-pogody)
-*[Рамка с поворотом](http://htmlbook.ru/practical/ramka-s-povorotom)
-*[Рейтинг](http://htmlbook.ru/practical/reyting)
-*[Создание меню с тенью](http://htmlbook.ru/practical/sozdanie-menyu-s-tenyu)
-*[Ссылка как кнопка](http://htmlbook.ru/practical/ssylka-kak-knopka)
-*[Таблица с зеброй](http://htmlbook.ru/practical/tablitsa-s-zebroi)
-*[Текст в рамке](http://htmlbook.ru/practical/tekst-v-ramke)
-*[Текст для галочки](http://htmlbook.ru/practical/tekst-dlya-galochki)
-*[ТТХ](http://htmlbook.ru/practical/ttkh)
-*[Форма регистрации](http://htmlbook.ru/practical/forma-registracii)
-*[Формула по центру](http://htmlbook.ru/practical/formula-po-tsentru)
-*[Хлебные крошки](http://htmlbook.ru/practical/khlebnye-kroshki)
-*[Цветные колонки в таблице](http://htmlbook.ru/practical/tsvetnye-kolonki-v-tablitse)
-*[Цитата](http://htmlbook.ru/practical/tsitata)
-*[Шаг 4](http://htmlbook.ru/practical/shag-4)
+*   [Р’РµСЂС…РЅРёР№ Рё РЅРёР¶РЅРёР№ РёРЅРґРµРєСЃ](/practical/verkhniy-i-nizhniy-indeks)  
 
-###Высокая сложность
+*   [Р’Р»РѕР¶РµРЅРЅС‹Рµ СЃРїРёСЃРєРё](/practical/vlozhennye-spiski)  
 
-*[ЭКГ-5](http://htmlbook.ru/practical/ekg-5)
-*[Блок с градиентом](http://htmlbook.ru/practical/blok-s-gradientom)
-*[Блок с тенью](http://htmlbook.ru/practical/blok-s-tenyu)
-*[Блок с указателем](http://htmlbook.ru/practical/blok-s-ukazatelem)
-*[Знак французских ВВС](http://htmlbook.ru/practical/znak-francuzskih-vvs)
-*[Индикатор выполнения](http://htmlbook.ru/practical/indikator-vypolneniya)
-*[Картинка с тенью](http://htmlbook.ru/practical/kartinka-s-tenyu)
-*[Ниспадающее меню](http://htmlbook.ru/practical/nispadayushchee-menyu)
-*[Нумерованные списки](http://htmlbook.ru/practical/numerovannye-spiski)
-*[Обратная связь](http://htmlbook.ru/practical/obratnaya-svyaz)
-*[Пошаговая форма](http://htmlbook.ru/practical/poshagovaya-forma)
-*[Рамка](http://htmlbook.ru/practical/ramka)
-*[Рамка вокруг текста](http://htmlbook.ru/practical/ramka-vokrug-teksta)
-*[Социальные связи](http://htmlbook.ru/practical/socialnye-svyazi)
-*[Так-тикс](http://htmlbook.ru/practical/tak-tiks)
-*[Форма для коктейлей](http://htmlbook.ru/practical/forma-dlya-kokteilei)
-*[Форма регистрации](http://htmlbook.ru/practical/forma-registratsii)
-*[Ход конём](http://htmlbook.ru/practical/hod-konyom)
-*[Хостинг](http://htmlbook.ru/practical/hosting)
-*[Шаги](http://htmlbook.ru/practical/shagi)
-*[Эквалайзер](http://htmlbook.ru/practical/ekvalayzer)
-*[Электронный сомелье](http://htmlbook.ru/practical/elektronnyi-somele)
-*[Эскиз](http://htmlbook.ru/practical/eskiz)
+*   [Р’С‹РІРѕСЂРѕС‚РєР°](/practical/vyvorotka)  
+
+*   [Р—Р°РіРѕР»РѕРІРєРё](/practical/zagolovki)  
+
+*   [РР· XHTML РІ HTML5](/practical/iz-xhtml-v-html5)  
+
+*   [РР· XHTML РІ HTML5](/practical/iz-xhtml-v-html5-0)  
+
+*   [РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЃРїРµС†СЃРёРјРІРѕР»РѕРІ](/practical/ispolzovanie-spetssimvolov)  
+
+*   [РСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє](/practical/ispravlenie-oshibok-1)  
+
+*   [РСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє](/practical/ispravlenie-oshibok)  
+
+*   [РСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє](/practical/ispravlenie-oshibok-3)  
+
+*   [РСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє](/practical/ispravlenie-oshibok-0)  
+
+*   [РСЃРїСЂР°РІР»РµРЅРёРµ РѕС€РёР±РѕРє](/practical/ispravlenie-oshibok-2)  
+
+*   [РљР°СЂС‚С‹](/practical/karty)  
+
+*   [РњРЅРѕРіРѕС‡Р»РµРЅ СЃС‚РµРїРµРЅРё n](/practical/mnogochlen-stepeni-n)  
+
+*   [РќСѓРјРµСЂРѕРІР°РЅРЅС‹Р№ Рё РјР°СЂРєРёСЂРѕРІР°РЅРЅС‹Р№ СЃРїРёСЃРѕРє](/practical/numerovannyy-i-markirovannyy-spisok)  
+
+*   [РћР±СЉРµРґРёРЅРµРЅРёРµ СЏС‡РµРµРє С‚Р°Р±Р»РёС†С‹](/practical/obedinenie-yacheek-tablitsy)  
+
+*   [РћРїС‚РёРјРёР·Р°С†РёСЏ CSS](/practical/optimizaciya-css)  
+
+*   [РћРїСЏС‚СЊ С‚Р°Р±Р»РёС†С‹](/practical/opyat-tablicy)  
+
+*   [РћС‚СЃС‚СѓРїС‹ РјРµР¶РґСѓ Р±Р»РѕРєРѕРІ](/practical/otstupy-mezhdu-blokov)  
+
+*   [РџРѕР»Рµ РґР»СЏ РІРІРѕРґР° С‡РёСЃРµР»](/practical/pole-dlya-vvoda-chisel)  
+
+*   [РџРѕР»Рµ РґР»СЏ РїРѕРёСЃРєР°](/practical/pole-dlya-poiska)  
+
+*   [Р Р°Р±РѕС‚Р° СЃ Р°Р±Р·Р°С†Р°РјРё](/practical/rabota-s-abzatsami)  
+
+*   [Р Р°Р·РЅРѕС†РІРµС‚РЅС‹Рµ СЃСЃС‹Р»РєРё](/practical/raznotsvetnye-ssylki)  
+
+*   [Р РёСЃРѕРІР°РЅРЅР°СЏ СЂР°РјРєР°](/practical/risovannaya-ramka)  
+
+*   [РЎРѕР·РґР°РЅРёРµ РІРµР±-СЃС‚СЂР°РЅРёС†С‹](/practical/sozdanie-veb-stranitsy)  
+
+*   [РЎРѕР·РґР°РЅРёРµ СЃСЃС‹Р»РѕРє](/practical/sozdanie-ssylok)  
+
+*   [РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹](/practical/sozdanie-tablitsy)  
+
+*   [РЎСЃС‹Р»РєР° РЅР° СЃС‚СЂР°РЅРёС†Сѓ](/practical/ssylka-na-stranitsu)  
+
+*   [РЎС‚РёР»СЊ РґР»СЏ РїРµС‡Р°С‚Рё](/practical/stil-dlya-pechati)  
+
+*   [РЎС‚РёС…РѕС‚РІРѕСЂРµРЅРёРµ](/practical/stihotvorenie)  
+
+*   [Р¤Р»Р°Рі РЇРїРѕРЅРёРё](/practical/flag-yaponii)  
+
+*   [Р¦РІРµС‚ Рё С„РѕРЅ РІ С‚Р°Р±Р»РёС†Рµ](/practical/tsvet-i-fon-v-tablitse)  
+
+*   [Р¦РІРµС‚ С„РѕРЅР° Рё С‚РµРєСЃС‚Р° РґРѕРєСѓРјРµРЅС‚Р°](/practical/tsvet-fona-i-teksta-dokumenta)  
+
+*   [Р§РµСЂРµРґСѓСЋС‰РёРµСЃСЏ РєРІР°РґСЂР°С‚С‹](/practical/chereduyushchiesya-kvadraty)  
+
+*   [РЁРёСЂРёРЅР° С‚Р°Р±Р»РёС†С‹](/practical/shirina-tablitsy)  
+
+### РЎСЂРµРґРЅСЏСЏ СЃР»РѕР¶РЅРѕСЃС‚СЊ
+
+*   [Р‘Р°С‚Р°СЂРµР№РєР°](/practical/batareyka)  
+
+*   [Р’С‹СЂРµР·Р°РЅРЅС‹Рµ СѓРіРѕР»РєРё](/practical/vyrezannye-ugolki)  
+
+*   [Р“Р»Р°РјСѓСЂРЅР°СЏ РєРЅРѕРїРєР°](/practical/glamurnaya-knopka)  
+
+*   [Р“СЂР°РґРёРµРЅС‚РЅС‹Рµ РєРЅРѕРїРєРё РІ Safari](/practical/gradientnye-knopki-v-safari)  
+
+*   [Р“СЂР°РЅРёС†Р° РІРѕРєСЂСѓРі С„РѕСЂРјС‹](/practical/granitsa-vokrug-formy)  
+
+*   [Р”РІРѕР№РЅР°СЏ СЂР°РјРєР°](/practical/dvoinaya-ramka)  
+
+*   [Р—РЅР°С‡РєРё РґР»СЏ Р»РёСЃС‚Р°РЅРёСЏ С„РѕС‚РѕРіСЂР°С„РёР№](/practical/znachki-dlya-listaniya-fotografii)  
+
+*   [РРЅРґРёРєР°С‚РѕСЂ РїСЂРѕРіСЂРµСЃСЃР°](/practical/indikator-progressa)  
+
+*   [РљРІР°РґСЂР°С‚РЅС‹Р№ РєРѕСЂРµРЅСЊ](/practical/kvadratnyy-koren)  
+
+*   [РљРІР°РґСЂР°С‚С‹](/practical/kvadraty)  
+
+*   [РљСЂСѓРіРѕРІР°СЏ РґРёР°РіСЂР°РјРјР°](/practical/krugovaya-diagramma)  
+
+*   [РќР°Р»РѕР¶РµРЅРёРµ СЃР»РѕРµРІ](/practical/nalozhenie-sloev)  
+
+*   [РќСѓРјРµСЂР°С†РёСЏ](/practical/numeratsiya)  
+
+*   [РќСѓРјРµСЂР°С†РёСЏ СЃС‚СЂР°РЅРёС†](/practical/numeratsiya-stranits)  
+
+*   [РћР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РїРѕР»СЏ С„РѕСЂРјС‹](/practical/obyazatelnye-polya-formy)  
+
+*   [РћС‚СЃС‚СѓРї РїРѕРґ РёР·РѕР±СЂР°Р¶РµРЅРёРµРј](/practical/otstup-pod-izobrazheniem)  
+
+*   [РџРµСЂРµРІРѕРґ РІ XHTML](/practical/perevod-v-xhtml)  
+
+*   [РџРѕР»Рµ РґР»СЏ РёРіСЂС‹ РІ РіРѕРјРѕРєСѓ](/practical/pole-dlya-igry-v-gomoku)  
+
+*   [РџРѕСЃР»РµРґРЅСЏСЏ Р»РёРЅРёСЏ СЃРїСЂР°РІР°](/practical/poslednyaya-liniya-sprava)  
+
+*   [РџСЂРѕРіРЅРѕР· РїРѕРіРѕРґС‹](/practical/prognoz-pogody)  
+
+*   [Р Р°РјРєР° СЃ РїРѕРІРѕСЂРѕС‚РѕРј](/practical/ramka-s-povorotom)  
+
+*   [Р РµР№С‚РёРЅРі](/practical/reyting)  
+
+*   [РЎРѕР·РґР°РЅРёРµ РјРµРЅСЋ СЃ С‚РµРЅСЊСЋ](/practical/sozdanie-menyu-s-tenyu)  
+
+*   [РЎСЃС‹Р»РєР° РєР°Рє РєРЅРѕРїРєР°](/practical/ssylka-kak-knopka)  
+
+*   [РўР°Р±Р»РёС†Р° СЃ Р·РµР±СЂРѕР№](/practical/tablitsa-s-zebroi)  
+
+*   [РўРµРєСЃС‚ РІ СЂР°РјРєРµ](/practical/tekst-v-ramke)  
+
+*   [РўРµРєСЃС‚ РґР»СЏ РіР°Р»РѕС‡РєРё](/practical/tekst-dlya-galochki)  
+
+*   [РўРўРҐ](/practical/ttkh)  
+
+*   [Р¤РѕСЂРјР° СЂРµРіРёСЃС‚СЂР°С†РёРё](/practical/forma-registracii)  
+
+*   [Р¤РѕСЂРјСѓР»Р° РїРѕ С†РµРЅС‚СЂСѓ](/practical/formula-po-tsentru)  
+
+*   [РҐР»РµР±РЅС‹Рµ РєСЂРѕС€РєРё](/practical/khlebnye-kroshki)  
+
+*   [Р¦РІРµС‚РЅС‹Рµ РєРѕР»РѕРЅРєРё РІ С‚Р°Р±Р»РёС†Рµ](/practical/tsvetnye-kolonki-v-tablitse)  
+
+*   [Р¦РёС‚Р°С‚Р°](/practical/tsitata)  
+
+*   [РЁР°Рі 4](/practical/shag-4)  
+
+*   [Р­РљР“-5](/practical/ekg-5)  
+
+### Р’С‹СЃРѕРєР°СЏ СЃР»РѕР¶РЅРѕСЃС‚СЊ
+
+*   [Р‘Р»РѕРє СЃ РіСЂР°РґРёРµРЅС‚РѕРј](/practical/blok-s-gradientom)  
+
+*   [Р‘Р»РѕРє СЃ С‚РµРЅСЊСЋ](/practical/blok-s-tenyu)  
+
+*   [Р‘Р»РѕРє СЃ СѓРєР°Р·Р°С‚РµР»РµРј](/practical/blok-s-ukazatelem)  
+
+*   [Р—РЅР°Рє С„СЂР°РЅС†СѓР·СЃРєРёС… Р’Р’РЎ](/practical/znak-francuzskih-vvs)  
+
+*   [РРЅРґРёРєР°С‚РѕСЂ РІС‹РїРѕР»РЅРµРЅРёСЏ](/practical/indikator-vypolneniya)  
+
+*   [РљР°СЂС‚РёРЅРєР° СЃ С‚РµРЅСЊСЋ](/practical/kartinka-s-tenyu)  
+
+*   [РќРёСЃРїР°РґР°СЋС‰РµРµ РјРµРЅСЋ](/practical/nispadayushchee-menyu)  
+
+*   [РќСѓРјРµСЂРѕРІР°РЅРЅС‹Рµ СЃРїРёСЃРєРё](/practical/numerovannye-spiski)  
+
+*   [РћР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ](/practical/obratnaya-svyaz)  
+
+*   [РџРѕС€Р°РіРѕРІР°СЏ С„РѕСЂРјР°](/practical/poshagovaya-forma)  
+
+*   [Р Р°РјРєР°](/practical/ramka)  
+
+*   [Р Р°РјРєР° РІРѕРєСЂСѓРі С‚РµРєСЃС‚Р°](/practical/ramka-vokrug-teksta)  
+
+*   [РЎРѕС†РёР°Р»СЊРЅС‹Рµ СЃРІСЏР·Рё](/practical/socialnye-svyazi)  
+
+*   [РўР°Рє-С‚РёРєСЃ](/practical/tak-tiks)  
+
+*   [Р¤РѕСЂРјР° РґР»СЏ РєРѕРєС‚РµР№Р»РµР№](/practical/forma-dlya-kokteilei)  
+
+*   [Р¤РѕСЂРјР° СЂРµРіРёСЃС‚СЂР°С†РёРё](/practical/forma-registratsii)  
+
+*   [РҐРѕРґ РєРѕРЅС‘Рј](/practical/hod-konyom)  
+
+*   [РҐРѕСЃС‚РёРЅРі](/practical/hosting)  
+
+*   [РЁР°РіРё](/practical/shagi)  
+
+*   [Р­РєРІР°Р»Р°Р№Р·РµСЂ](/practical/ekvalayzer)  
+
+*   [Р­Р»РµРєС‚СЂРѕРЅРЅС‹Р№ СЃРѕРјРµР»СЊРµ](/practical/elektronnyi-somele)  
+
+*   [Р­СЃРєРёР·](/practical/eskiz)  
