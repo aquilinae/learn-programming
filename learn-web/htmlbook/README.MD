@@ -1,3 +1,7 @@
+# [Практикум](http://htmlbook.ru/practical)  
+
+## Решения задач, связанных с HTML, CSS и вёрсткой веб-страниц
+
 ### Низкая сложность
 
 *   [TEX](http://htmlbook.ru/practical/tex)  
