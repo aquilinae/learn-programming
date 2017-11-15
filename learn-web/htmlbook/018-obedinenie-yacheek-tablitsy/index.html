@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="ornichola" />
+  <meta charset="utf-8">
+  <title>Объединение ячеек таблицы</title>
+  <style type="text/css">
+    p {
+      text-align: center;
+    }
+  table {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  tr {
+    border: 1px solid black;
+  }
+  th{
+    border: 1px solid black;
+  }
+  td {
+    border: 1px solid black;
+  }
+  .border-default {
+    border: 1px solid black;
+  }
+  .centered {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+  <p>
+    Добыча драгоценных камней
+  </p>
+  <table cellpadding="4">
+    <tr>
+      <th>
+      </th>
+      <th>
+        2010
+      </th>
+      <th>
+        2012
+      </th>
+      <th>
+        2014
+      </th>
+    </tr>
+    <tr>
+      <td>
+        Сапфиры
+      </td>
+      <td rowspan="2">
+        1483
+      </td>
+      <td>
+        4532
+      </td>
+      <td>
+        6743
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Рубины
+      </td>
+      <td>
+        3835
+      </td>
+      <td>
+        7482
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Алмазы
+      </td>
+      <td>
+        683
+      </td>
+      <td colspan="2" class="centered">
+        238
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
