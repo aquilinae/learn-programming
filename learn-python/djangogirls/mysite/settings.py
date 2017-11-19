@@ -25,7 +25,7 @@ SECRET_KEY = 'bb#6u7-o*g_nlel=3(3bs&1#(mu+g)berd)d&n_a#3*--2#je!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'http://ornichola.pythonanywhere.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'ornichola.pythonanywhere.com']
 
 
 # Application definition
