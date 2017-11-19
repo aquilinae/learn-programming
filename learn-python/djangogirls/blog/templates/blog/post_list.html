@@ -3,21 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-    <h1><a href="/">Test Blog made by Django Girls tutorial</a></h1>
+    <div class="page-header">
+      <h1><a href="/">Test Blog made by Django Girls tutorial</a></h1>
+    </div>
 
-    {% for post in posts %}
-      <div>
-        <p>
-          published: {{ post.published_date }}
-        </p>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>
-          {{ post.text|linebreaksbr }}
-        </p>
-      </div>
-    {% endfor %}
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+                {% for post in posts %}
+                    <div class="post">
+                        <div class="date">
+                            <p>published: {{ post.published_date }}</p>
+                        </div>
+                        <h1><a href="">{{ post.title }}</a></h1>
+                        <p>{{ post.text|linebreaksbr }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
   </body>
 </html>
