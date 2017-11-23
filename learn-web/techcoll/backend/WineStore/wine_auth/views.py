@@ -39,6 +39,10 @@ def signin(request):
     else:
         return Response({'c': 'error', 'd': 'not_exist'}, status=401)
 
+@api_view(['GET'])
+def logout(request):
+    auth.logout(request)
+    return Response('OK')
 
 @api_view(['POST'])
 def edit_user(request):
@@ -50,3 +54,18 @@ def edit_user(request):
             return Response('OK', status=200)
         return Response(serializer.error_messages, status=200)
     return Response('ERROR', status=400)
+
+'''
+# Пример того, как можно заполнить базу из джейсон объекта
+@api_view(['POST'])
+def create_db(request):
+    VineItem.objects.all().delete()
+    bulk = []
+    for item in request.data:
+        bulk.append(VineItem(
+        # тут перечисляются айтемы, описанные в модели
+        item[''],
+        ))
+    VineItem.objects.bulk_create(bulk)
+    return Response('OK', status=201)
+'''

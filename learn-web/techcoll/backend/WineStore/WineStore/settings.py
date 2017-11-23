@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'wine_auth',
+    'wine_item',
 ]
 
 AUTH_USER_MODEL = 'wine_auth.CustomUser'

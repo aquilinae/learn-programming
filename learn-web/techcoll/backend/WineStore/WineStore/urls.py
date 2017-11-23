@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^wine-auth/', include('wine_auth.urls')),
+    url(r'^wine-item/', include('wine_item.urls')),
 ]
