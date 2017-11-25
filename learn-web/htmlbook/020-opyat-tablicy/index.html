@@ -1,102 +1,78 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Опять таблицы</title>
   <meta charset="utf-8" />
-  <meta name="author" content="ornichola" />
+  <meta name="author" content="ornichola">
   <style>
     body {
-      background-color: #001646;
       font-family: "Arial", serif;
-      text-align: center;
+      background-color: #001646;
     }
-
-    .table-01 {
-      width: 970;
+    .table-main {
+      margin: auto;
+      width: 970px;
       border: 0;
-      padding: 5;
       border-spacing: 0;
+      padding: 0;
     }
-
     .header {
-      height: 280;
+      height: 280px;
     }
-
-    .content {
-      color: #000000;
+    .section {
+      background-color: #000;
     }
-
     .navigation {
-      width: 200;
+      width: 200px;
       vertical-align: top;
+      color: #FFF;
     }
-
     .navigation-item {
-      height: 30;
+      width: 200px;
+      height: 30px;
+      font-weight: bold;
     }
-
-    .table-02 {
-      border: 0;
-      color: #FFFFFF;
-    }
-
-    p {
-      font-family: Verdana;
-      font-size: 2;
-      color: #FFFFFF;
+    .content {
+      color: #FFF;
+      font-family: "Verdana";
+      font-size: small;
       text-align: justify;
     }
-
     .copyright {
-      text-align: center;
+      height: 30px;
       background-color: #103898;
-      color: #FFFFFF;
-      height: 20;
+      color: #FFF;
+      text-align: center;
     }
   </style>
 </head>
-
 <body>
-  <table class="table-01">
-    <tr class="header">
-      <td colspan='2'>
-        <img src='./images/header.jpg' alt="*" />
-      </td>
-    </tr>
-    <tr class="content">
-      <td class="navigation">
-        <table class="table-02">
-          <tr>
-            <td class="navigation-item"><b>Главная</b></td>
-          </tr>
-          <tr>
-            <td class="navigation-item"><b>Новости</b></td>
-          </tr>
-          <tr>
-            <td class="navigation-item"><b>О компании</b></td>
-          </tr>
-          <tr>
-            <td class="navigation-item"><b>Продукция</b></td>
-          </tr>
-          <tr>
-            <td class="navigation-item"><b>Контакты</b></td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <p>
-          Декретное время пространственно неоднородно. Ганимед ищет азимут, тем не менее, Дон Еманс включил в список всего 82-е Великие Кометы. Гелиоцентрическое расстояние постоянно. Каллисто ищет космический лимб, однако большинство спутников движутся вокруг
-          своих планет в ту же сторону, в какую вращаются планеты. Эпоха решает радиант, хотя это явно видно на фотогpафической пластинке, полученной с помощью 1.2-метpового телескопа.
-        </p>
-      </td>
-    </tr>
-    <tr class="copyright">
-      <td colspan='2'>
-        &copy; Copyright ME, 2013
-      </td>
-    </tr>
-  </table>
+<table class="table-main">
+<tr class="header">
+<td colspan='2'> <img src='./img/header.jpg' alt="*" /></td>
+</tr>
+<tr class="section">
+<td class="navigation">
+<table>
+<tr class="navigation-item"><td>Главная</td></tr>
+<tr class="navigation-item"><td>Новости</td></tr>
+<tr class="navigation-item"><td>О компании</td></tr>
+<tr class="navigation-item"><td>Продукция</td></tr>
+<tr class="navigation-item"><td>Контакты</td></tr>
+</table>
+</td>
+<td class="content">
+Декретное время пространственно неоднородно. Ганимед ищет азимут, тем не менее,
+Дон Еманс включил в список всего 82-е Великие Кометы. Гелиоцентрическое расстояние
+постоянно. Каллисто ищет космический лимб, однако большинство спутников движутся
+вокруг своих планет в ту же сторону, в какую вращаются планеты. Эпоха решает
+радиант, хотя это явно видно на фотогpафической пластинке, полученной с
+помощью 1.2-метpового телескопа.
+</td>
+</tr>
+<tr class="copyright">
+<td colspan='2'>&copy; Copyright ME, 2013</td>
+</tr>
+</table>
 </body>
-
 </html>
