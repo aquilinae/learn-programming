@@ -21,17 +21,14 @@ html, body {
 }
 
 .wrapper-inner {
-  height: 100%;
-  /*display: inline-block;*/
+  display: table;
   background-color: #000;
 }
 
 .navigation {
-  display: inline-block;
+  display: table-cell;
   width: 20%;
   height: 100%;
-
-  background-color: blue;
 }
 
 .navigation ul {
@@ -44,18 +41,16 @@ html, body {
 }
 
 .content {
-  display: inline-block;
+  display: table-cell;
   width: 80%;
   height: 100%;
-
-  background-color: green;
+  vertical-align: middle;
 }
 
 .content p {
   font-family: "Verdana";
   font-size: small;
   text-align: justify;
-  background-color: red;
 }
 
 footer {
